@@ -8,7 +8,7 @@ for (let row = 1; row <= 10; row++) {
         if (col == 1 || row == 1) {
             cell.classList.add("header");
         }
-        if (col / row == 1) {
+        if (col === row) {
             cell.classList.add("product");
         }
     }
